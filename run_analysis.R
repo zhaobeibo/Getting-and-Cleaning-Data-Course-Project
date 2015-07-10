@@ -44,7 +44,7 @@ feature.names[,2] <- gsub("[()]","",feature.names[,2])
 colnames(data) <- c("Subject","Activity",feature.names[feature.position,2])
 data$Activity <- factor(data$Activity,levels=activity.names[,1],labels=activity.names[,2])
 
-# create a tidy data set 
+# Create a tidy data set 
 # with the average of each variable for each activity and each subject
 data.melt <- melt(data, id = c("Subject","Activity"))
 data.avg <- dcast(data.melt,Subject + Activity ~ variable, mean)
