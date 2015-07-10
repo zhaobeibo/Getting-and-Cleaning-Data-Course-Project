@@ -7,6 +7,7 @@ This code book describes the data in `tidy.txt` file
 * Activity: The type of activity performed during measurements
 
 ##Activity Labels
+Corresponding numbers and activity names
 
 1. WALKING
 2. WALKING_UPSTAIRS
@@ -16,6 +17,8 @@ This code book describes the data in `tidy.txt` file
 6. LAYING
 
 ##Variable Measurements 
+Extracted mean and standard deviation variables
+
 * tBodyAcc-Mean-X
 * tBodyAcc-Mean-Y
 * tBodyAcc-Mean-Z
