@@ -30,7 +30,7 @@ subject.labels <- rbind(subject.train.labels,subject.test.labels)
 data <- rbind(train.data,test.data)
 activity.labels <- rbind(activity.train.labels,activity.test.labels)
 
-# Extract only the mean and standard deviation for each measurement
+# Extract only the mean and standard deviation variables
 feature.position <- grep("*mean*|*std*",feature.names[,2])
 data <- data[,feature.position]
 data <- cbind(subject.labels,activity.labels,data)
