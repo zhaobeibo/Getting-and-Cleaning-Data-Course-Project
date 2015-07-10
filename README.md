@@ -6,5 +6,5 @@ The repo contains:
 (3) run_analysis.R : R script that performs the data clean up if run
 (4) tidy.txt : a tidy data set that is the output of the run_analysis.R script
 
-The R script, 	run_analysis.R
+The R script, 	run_analysis.R, 
 
